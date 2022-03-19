@@ -6,7 +6,7 @@ from PIL.Image import core as image
 imagem = qrcode.make("https://github.com/weillercarvalho")
 imagem.save("imagecode.png")
 
-# O argumento/parâmetro error_correction tem uma correçã=o que vai entre L (7% de erro), M e H. Fica a critério.
+# O argumento/parâmetro error_correction tem uma correção que vai entre L (7% de erro), M e H. Fica a critério.
 # Forma 2 de criar um qrcode.
 '''
 qr = qrcode.QRCode(
